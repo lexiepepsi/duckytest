@@ -1,12 +1,17 @@
 $(document).ready(function() {
 	// alert("Are you feeling lucky today?");
-
 	// 6 seconds, 1600px
+
+	$("#score-display").text(0);
+
+	$( "img" ).click(function() {
+	  	$("#score-display").html(function(i, val) { return +val+1 });
+	});
 
 	$( "#clickme" ).click(function() {
   		$( "#duck1a" ).animate({
    		 	left: "+=500",
-  		}, 2000, function() {
+  		}, 12000, function() {
   		});
 
   		$( "#duck1a" ).animate({
@@ -320,7 +325,7 @@ $(document).ready(function() {
 
 	});
 
-		$( "#clickme" ).click(function() {
+	$( "#clickme" ).click(function() {
   		$( "#duck4c" ).animate({
    		 	left: "+=200",
   		}, 500, function() {
