@@ -1,0 +1,31 @@
+body {
+	font-family: sans-serif;
+	background-color: aliceblue;
+}
+
+#header {
+	text-align: center;
+	color: orange;
+	font-size: 30px;
+}
+
+#clickme {
+	margin: 0 auto;
+	font-size: 30px;
+	background-color: pink;
+	width: 100px;
+	border-radius: 5px;
+	color: red;
+}
+
+img {
+	background-color: none;
+	width: 78px; 
+	height: 69px;
+	position: relative;
+	left: 10px;
+}
+
+#water {
+	background-color: dodgerblue;
+}
