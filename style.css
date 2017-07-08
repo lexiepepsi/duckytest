@@ -25,22 +25,23 @@ img {
 	height: 69px;
 	position: relative;
 	left: 10px;
+	border-radius: 40px;
 }
 
-#duck1a {
+#duck1a, #duck3c {
 	background-color: green;
 }
 
-#duck1b {
+#duck1b, #duck3a, #duck4b {
 	background-color: yellow;
 } 
 
-#duck1c {
+#duck1c, #duck2b, #duck4a {
 	background-color: red;
 }
 
 
 #water {
 	background-color: dodgerblue;
-	height: 400px;
+	height: 300px;
 }
