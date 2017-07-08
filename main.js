@@ -19,6 +19,31 @@ $(document).ready(function() {
       $("#duck1c").css("display", "none");
   });
 
+  $( "#duck2b" ).click(function() {
+      $("#score-display").html(function(i, val) { return +val+1 });
+      $("#duck2b").css("display", "none");
+  });
+
+  $( "#duck3a" ).click(function() {
+      $("#score-display").html(function(i, val) { return +val+1 });
+      $("#duck3a").css("display", "none");
+  });
+
+  $( "#duck3c" ).click(function() {
+      $("#score-display").html(function(i, val) { return +val+1 });
+      $("#duck3c").css("display", "none");
+  });
+
+  $( "#duck4a" ).click(function() {
+      $("#score-display").html(function(i, val) { return +val+1 });
+      $("#duck4a").css("display", "none");
+  });
+
+  $( "#duck4b" ).click(function() {
+      $("#score-display").html(function(i, val) { return +val+1 });
+      $("#duck4b").css("display", "none");
+  });
+
 
 
 	$( "#clickme" ).click(function() {
@@ -165,6 +190,7 @@ $(document).ready(function() {
   		$( "#duck2b" ).animate({
    			left: "-=1600",
   			}, 1000, function() {
+          $("#duck2b").css("display", "initial");
  		});
 	});
 
@@ -222,6 +248,7 @@ $(document).ready(function() {
   		$( "#duck3a" ).animate({
    			left: "-=1600",
   			}, 1000, function() {
+          $("#duck3a").css("display", "initial");
  		});
 	});
 
@@ -279,6 +306,7 @@ $(document).ready(function() {
   		$( "#duck3c" ).animate({
    			left: "-=1600",
   			}, 1000, function() {
+          $("#duck3c").css("display", "initial");
  		});
 	});
 
@@ -308,6 +336,7 @@ $(document).ready(function() {
   		$( "#duck4a" ).animate({
    			left: "-=1600",
   			}, 1000, function() {
+          $("#duck4a").css("display", "initial");
  		});
 	});
 
@@ -337,6 +366,7 @@ $(document).ready(function() {
   		$( "#duck4b" ).animate({
    			left: "-=1600",
   			}, 1000, function() {
+          $("#duck4b").css("display", "initial");
  		});
 
 	});

@@ -5,7 +5,7 @@ body {
 
 #header {
 	text-align: center;
-	color: orange;
+	color: royalblue;
 	font-size: 30px;
 }
 
@@ -44,4 +44,8 @@ img {
 #water {
 	background-color: dodgerblue;
 	height: 300px;
+}
+
+.setdiv {
+	height: 75px;
 }
