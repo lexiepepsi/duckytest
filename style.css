@@ -27,6 +27,20 @@ img {
 	left: 10px;
 }
 
+#duck1a {
+	background-color: green;
+}
+
+#duck1b {
+	background-color: yellow;
+} 
+
+#duck1c {
+	background-color: red;
+}
+
+
 #water {
 	background-color: dodgerblue;
+	height: 400px;
 }

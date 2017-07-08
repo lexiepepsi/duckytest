@@ -4,14 +4,27 @@ $(document).ready(function() {
 
 	$("#score-display").text(0);
 
-	$( "img" ).click(function() {
+	$( "#duck1a" ).click(function() {
 	  	$("#score-display").html(function(i, val) { return +val+1 });
+      $("#duck1a").css("display", "none");
 	});
+
+  $( "#duck1b" ).click(function() {
+      $("#score-display").html(function(i, val) { return +val+1 });
+      $("#duck1b").css("display", "none");
+  });
+
+   $( "#duck1c" ).click(function() {
+      $("#score-display").html(function(i, val) { return +val+1 });
+      $("#duck1c").css("display", "none");
+  });
+
+
 
 	$( "#clickme" ).click(function() {
   		$( "#duck1a" ).animate({
    		 	left: "+=500",
-  		}, 12000, function() {
+  		}, 1000, function() {
   		});
 
   		$( "#duck1a" ).animate({
@@ -33,6 +46,7 @@ $(document).ready(function() {
   		$( "#duck1a" ).animate({
    			left: "-=1600",
   			}, 1000, function() {
+          $("#duck1a").css("display", "initial");
  		});
 	});
 
@@ -62,6 +76,7 @@ $(document).ready(function() {
   		$( "#duck1b" ).animate({
    			left: "-=1600",
   			}, 1000, function() {
+          $("#duck1b").css("display", "initial");
  		});
 	});
 
@@ -91,6 +106,7 @@ $(document).ready(function() {
   		$( "#duck1c" ).animate({
    			left: "-=1600",
   			}, 1000, function() {
+          $("#duck1c").css("display", "initial");
  		});
 	});
 
