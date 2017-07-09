@@ -71,14 +71,42 @@ body {
 }
 
 
-img {
+/*img {
 	background-color: none;
 	width: 70px;
 	height: 68px;
 	position: relative;
 	left: 10px;
+	left: -240px;
 	border-radius: 40px;
 	border: 1px solid black;
+}*/
+
+.gamepiece {
+	background-color: none;
+	width: 70px;
+	height: 68px;
+	position: relative;
+	display: inline-block;
+	left: -240px;
+	border-radius: 40px;
+	border: 1px solid black;
+}
+
+.rat {
+	background: url("images/ratnew.png") no-repeat center;
+}
+
+.roach {
+	background: url("images/roachnew.png") no-repeat center;
+}
+
+.gma {
+	background: url("images/gmanew.png") no-repeat center;
+}
+
+.scream {
+	background: url("images/screamnew.png") no-repeat center;
 }
 
 #duck1a, #duck3c {
@@ -101,7 +129,6 @@ img {
 	background-color: white;
 }
 
-
 #playarea {
 	background-color: lightsteelblue;
 	height: 315px;
@@ -114,3 +141,45 @@ img {
 	padding-top: 5px;
 	height: 75px;
 }
+
+/*@media all and (max-width: 400px) {
+		img {
+		background-color: none;
+		width: 45px;
+		height: 43px;
+		position: relative;
+		left: 10px;
+		border-radius: 22px;
+		border: .5px solid black;
+	}
+
+		.header h1 {
+		font-size: 38px;
+		padding: 10px;
+	}
+
+		.header p {
+		font-size: 16px;
+		padding-right: 25px;
+		padding-left: 25px;
+		padding-top: 4px;
+		padding-bottom: 10px;
+	}
+
+		#playarea {
+		height: 198px;
+		cursor: url("images/crosshair.png"), auto;
+		border-top: 5px ridge lightslategrey;
+		border-bottom: 5px ridge lightslategrey;
+	}
+
+		.setdiv {
+		padding-top: 2px;
+		height: 48px;
+	}
+
+		#duck1c, #duck2c, #duck3c, #duck4c {
+		display: none;
+	}
+
+}*/
