@@ -39,6 +39,7 @@ body {
 	margin-top: 20px;
 	margin-bottom: 20px;
 	border: 2px solid black;
+	cursor: default;
 }
 
 .clickme p {
@@ -142,23 +143,14 @@ body {
 	height: 75px;
 }
 
-/*@media all and (max-width: 400px) {
-		img {
-		background-color: none;
-		width: 45px;
-		height: 43px;
-		position: relative;
-		left: 10px;
-		border-radius: 22px;
-		border: .5px solid black;
-	}
+@media all and (max-width: 414px) {
 
-		.header h1 {
+	.header h1 {
 		font-size: 38px;
 		padding: 10px;
 	}
 
-		.header p {
+	.header p {
 		font-size: 16px;
 		padding-right: 25px;
 		padding-left: 25px;
@@ -166,20 +158,18 @@ body {
 		padding-bottom: 10px;
 	}
 
-		#playarea {
-		height: 198px;
-		cursor: url("images/crosshair.png"), auto;
-		border-top: 5px ridge lightslategrey;
-		border-bottom: 5px ridge lightslategrey;
+	.clickme p {
+		font-size: 25px;
 	}
 
-		.setdiv {
-		padding-top: 2px;
-		height: 48px;
+	.clickme {
+		margin-top: 10px;
+		margin-bottom: 10px;
 	}
 
-		#duck1c, #duck2c, #duck3c, #duck4c {
-		display: none;
+	.score p {
+		color: black;
+		font-size: 19px;
 	}
 
-}*/
+}
