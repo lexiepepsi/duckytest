@@ -58,7 +58,7 @@ body {
 	border: 5px double black;
 }
 
-#score-display {
+#score-display, #rat-display, #roach-display, #scream-display, #gma-display {
 	color: crimson;
 }
 
@@ -71,18 +71,6 @@ body {
 	padding-right: 5px;
 }
 
-
-/*img {
-	background-color: none;
-	width: 70px;
-	height: 68px;
-	position: relative;
-	left: 10px;
-	left: -240px;
-	border-radius: 40px;
-	border: 1px solid black;
-}*/
-
 .gamepiece {
 	background-color: none;
 	width: 70px;
@@ -92,6 +80,22 @@ body {
 	left: -240px;
 	border-radius: 40px;
 	border: 1px solid black;
+}
+
+.scorepiece {
+	background-color: none;
+	width: 50px;
+	height: 48px;
+	position: relative;
+	display: inline-block;
+	border-radius: 40px;
+	border: 1px solid lightslategrey;
+	margin-left: 6px;
+	margin-right: -10px;
+}
+
+.indivscore {
+	display: inline-block;
 }
 
 .rat {
