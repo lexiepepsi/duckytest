@@ -136,7 +136,7 @@ body {
 
 #playarea {
 	background-color: lightsteelblue;
-	height: 315px;
+	height: 320px;
 	cursor: url("images/crosshair.png"), auto;
 	border-top: 5px ridge lightslategrey;
 	border-bottom: 5px ridge lightslategrey;

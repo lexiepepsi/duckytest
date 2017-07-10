@@ -2,6 +2,7 @@ $(document).ready(function() {
 	// alert("Are you feeling lucky today?");
 	// 6 seconds, 1900px
 
+// Initial Scores are Zero
 	$("#score-display").text(0);
 
 	$("#rat-display").text(0);
@@ -9,6 +10,8 @@ $(document).ready(function() {
 	$("#scream-display").text(0);
 	$("#gma-display").text(0);
 
+
+// Scores Change on Click and Images Disappear
 	$( "#duck1a" ).click(function() {
 	  	$("#score-display").html(function(i, val) { return +val+10 });
 	  	$("#rat-display").html(function(i, val) { return +val+10 });
@@ -82,6 +85,7 @@ $(document).ready(function() {
 	});
 
 
+// Gamepieces Move Across the Screen on Click
 	$( "#clickme" ).click(function() {
   		$( "#duck1a" ).animate({
    		 	left: "+=500",
@@ -101,9 +105,10 @@ $(document).ready(function() {
   		$( "#duck1a" ).animate({
    		 	left: "+=500",
   		}, 1000, function() {
+  			$("#duck1a").css("display", "none");
   		});
 
-	// GO BACK HOME DUCKS
+	// GO BACK HOME
   		$( "#duck1a" ).animate({
    			left: "-=1900",
   			}, 1000, function() {
@@ -131,9 +136,10 @@ $(document).ready(function() {
   		$( "#duck1b" ).animate({
    		 	left: "+=780",
   		}, 1000, function() {
+  			$("#duck1b").css("display", "none");
   		});
 
-	// GO BACK HOME DUCKS
+	// GO BACK HOME
   		$( "#duck1b" ).animate({
    			left: "-=1900",
   			}, 1000, function() {
@@ -161,9 +167,10 @@ $(document).ready(function() {
   		$( "#duck1c" ).animate({
    		 	left: "+=300",
   		}, 1000, function() {
+  			$("#duck1c").css("display", "none");
   		});
 
-	// GO BACK HOME DUCKS
+	// GO BACK HOME
   		$( "#duck1c" ).animate({
    			left: "-=1900",
   			}, 1000, function() {
@@ -191,9 +198,10 @@ $(document).ready(function() {
   		$( "#duck2a" ).animate({
    		 	left: "+=650",
   		}, 2000, function() {
+  			$("#duck2a").css("display", "none");
   		});
 
-	// GO BACK HOME DUCKS
+	// GO BACK HOME
   		$( "#duck2a" ).animate({
    			left: "-=1900",
   			}, 1000, function() {
@@ -221,9 +229,10 @@ $(document).ready(function() {
   		$( "#duck2b" ).animate({
    		 	left: "+=600",
   		}, 1000, function() {
+  			$("#duck2b").css("display", "none");
   		});
 
-  	// GO BACK HOME DUCKS
+  	// GO BACK HOME
   		$( "#duck2b" ).animate({
    			left: "-=1900",
   			}, 1000, function() {
@@ -250,9 +259,10 @@ $(document).ready(function() {
   		$( "#duck2c" ).animate({
    		 	left: "+=900",
   		}, 1000, function() {
+  			$("#duck2c").css("display", "none");
   		});
 
-	// GO BACK HOME DUCKS
+	// GO BACK HOME
   		$( "#duck2c" ).animate({
    			left: "-=1900",
   			}, 1000, function() {
@@ -280,9 +290,10 @@ $(document).ready(function() {
   		$( "#duck3a" ).animate({
    		 	left: "+=800",
   		}, 1000, function() {
+  			$("#duck3a").css("display", "none");
   		});
 
-  	// GO BACK HOME DUCKS
+  	// GO BACK HOME
   		$( "#duck3a" ).animate({
    			left: "-=1900",
   			}, 1000, function() {
@@ -310,9 +321,10 @@ $(document).ready(function() {
   		$( "#duck3b" ).animate({
    		 	left: "+=700",
   		}, 1500, function() {
+  			$("#duck3b").css("display", "none");
   		});
 
-  	// GO BACK HOME DUCKS
+  	// GO BACK HOME
   		$( "#duck3b" ).animate({
    			left: "-=1900",
   			}, 1000, function() {
@@ -339,9 +351,10 @@ $(document).ready(function() {
   		$( "#duck3c" ).animate({
    		 	left: "+=700",
   		}, 1000, function() {
+  			$("#duck3c").css("display", "none");
   		});
 
-  	// GO BACK HOME DUCKS
+  	// GO BACK HOME
   		$( "#duck3c" ).animate({
    			left: "-=1900",
   			}, 1000, function() {
@@ -369,9 +382,10 @@ $(document).ready(function() {
   		$( "#duck4a" ).animate({
    		 	left: "+=700",
   		}, 1500, function() {
+  			$("#duck4a").css("display", "none");
   		});
 
-  		// GO BACK HOME DUCKS
+  	// GO BACK HOME
   		$( "#duck4a" ).animate({
    			left: "-=1900",
   			}, 1000, function() {
@@ -399,9 +413,10 @@ $(document).ready(function() {
   		$( "#duck4b" ).animate({
    		 	left: "+=700",
   		}, 2000, function() {
+  			$("#duck4b").css("display", "none");
   		});
 
-  	// GO BACK HOME DUCKS
+  	// GO BACK HOME
   		$( "#duck4b" ).animate({
    			left: "-=1900",
   			}, 1000, function() {
@@ -429,13 +444,17 @@ $(document).ready(function() {
   		$( "#duck4c" ).animate({
    		 	left: "+=800",
   		}, 1500, function() {
+  			$("#duck4c").css("display", "none");
   		});
 
-  	// GO BACK HOME DUCKS
+  	// GO BACK HOME
+
   		$( "#duck4c" ).animate({
    			left: "-=1900",
   			}, 1000, function() {
   		  $("#duck4c").css("display", "inline-block");
+  		  $("#buttonchange").html("CONTINUE");
+  		  $(".go-again").css("background-color", "coral");
  		});
 
 	});
