@@ -1,6 +1,5 @@
 $(document).ready(function() {
-	// alert("Are you feeling lucky today?");
-	// 6 seconds, 1900px
+
 
 // Initial Scores are Zero
 	$("#score-display").text(0);
@@ -86,6 +85,9 @@ $(document).ready(function() {
 
 
 // Gamepieces Move Across the Screen on Click
+// 6 seconds, 1900px
+
+// DUCK 1a
 	$( "#clickme" ).click(function() {
   		$( "#duck1a" ).animate({
    		 	left: "+=500",
@@ -111,12 +113,41 @@ $(document).ready(function() {
 	// GO BACK HOME
   		$( "#duck1a" ).animate({
    			left: "-=1900",
-  			}, 1000, function() {
+  			}, 1, function() {
+          $("#duck1a").css("display", "inline-block");
+ 		});
+
+ 		$( "#duck1a" ).animate({
+   		 	left: "+=500",
+  		}, 2000, function() {
+  		});
+
+  		$( "#duck1a" ).animate({
+   		 	left: "+=700",
+  		}, 1000, function() {
+  		});
+
+  		$( "#duck1a" ).animate({
+   		 	left: "+=200",
+  		}, 2000, function() {
+  		});
+
+  		$( "#duck1a" ).animate({
+   		 	left: "+=500",
+  		}, 1000, function() {
+  			$("#duck1a").css("display", "none");
+  		});
+
+	// GO BACK HOME
+  		$( "#duck1a" ).animate({
+   			left: "-=1900",
+  			}, 1, function() {
           $("#duck1a").css("display", "inline-block");
  		});
 	});
 
 
+// DUCK 1b
 	$( "#clickme" ).click(function() {
   		$( "#duck1b" ).animate({
    		 	left: "+=120",
@@ -142,12 +173,41 @@ $(document).ready(function() {
 	// GO BACK HOME
   		$( "#duck1b" ).animate({
    			left: "-=1900",
-  			}, 1000, function() {
+  			}, 1, function() {
+          $("#duck1b").css("display", "inline-block");
+ 		});
+
+ 		$( "#duck1b" ).animate({
+   		 	left: "+=120",
+  		}, 3000, function() {
+  		});
+
+  		$( "#duck1b" ).animate({
+   		 	left: "+=800",
+  		}, 1000, function() {
+  		});
+
+  		$( "#duck1b" ).animate({
+   		 	left: "+=200",
+  		}, 1000, function() {
+  		});
+
+  		$( "#duck1b" ).animate({
+   		 	left: "+=780",
+  		}, 1000, function() {
+  			$("#duck1b").css("display", "none");
+  		});
+
+	// GO BACK HOME
+  		$( "#duck1b" ).animate({
+   			left: "-=1900",
+  			}, 1, function() {
           $("#duck1b").css("display", "inline-block");
  		});
 	});
 
 
+// DUCK 1c
 	$( "#clickme" ).click(function() {
   		$( "#duck1c" ).animate({
    		 	left: "+=200",
@@ -173,12 +233,41 @@ $(document).ready(function() {
 	// GO BACK HOME
   		$( "#duck1c" ).animate({
    			left: "-=1900",
-  			}, 1000, function() {
+  			}, 1, function() {
+          $("#duck1c").css("display", "inline-block");
+ 		});
+
+ 		$( "#duck1c" ).animate({
+   		 	left: "+=200",
+  		}, 3000, function() {
+  		});
+
+  		$( "#duck1c" ).animate({
+   		 	left: "+=500",
+  		}, 1000, function() {
+  		});
+
+  		$( "#duck1c" ).animate({
+   		 	left: "+=900",
+  		}, 1000, function() {
+  		});
+
+  		$( "#duck1c" ).animate({
+   		 	left: "+=300",
+  		}, 1000, function() {
+  			$("#duck1c").css("display", "none");
+  		});
+
+	// GO BACK HOME
+  		$( "#duck1c" ).animate({
+   			left: "-=1900",
+  			}, 1, function() {
           $("#duck1c").css("display", "inline-block");
  		});
 	});
 
 
+// DUCK 2a
 	$( "#clickme" ).click(function() {
   		$( "#duck2a" ).animate({
    		 	left: "+=50",
@@ -204,12 +293,41 @@ $(document).ready(function() {
 	// GO BACK HOME
   		$( "#duck2a" ).animate({
    			left: "-=1900",
-  			}, 1000, function() {
+  			}, 1, function() {
+  		  $("#duck2a").css("display", "inline-block");
+ 		});
+
+ 		$( "#duck2a" ).animate({
+   		 	left: "+=50",
+  		}, 1000, function() {
+  		});
+
+  		$( "#duck2a" ).animate({
+   		 	left: "+=900",
+  		}, 2000, function() {
+  		});
+
+  		$( "#duck2a" ).animate({
+   		 	left: "+=300",
+  		}, 1000, function() {
+  		});
+
+  		$( "#duck2a" ).animate({
+   		 	left: "+=650",
+  		}, 2000, function() {
+  			$("#duck2a").css("display", "none");
+  		});
+
+	// GO BACK HOME
+  		$( "#duck2a" ).animate({
+   			left: "-=1900",
+  			}, 1, function() {
   		  $("#duck2a").css("display", "inline-block");
  		});
 	});
 
 
+// DUCK 2b
 	$( "#clickme" ).click(function() {
   		$( "#duck2b" ).animate({
    		 	left: "+=400",
@@ -235,29 +353,59 @@ $(document).ready(function() {
   	// GO BACK HOME
   		$( "#duck2b" ).animate({
    			left: "-=1900",
-  			}, 1000, function() {
+  			}, 1, function() {
+          $("#duck2b").css("display", "inline-block");
+ 		});
+
+ 		$( "#duck2b" ).animate({
+   		 	left: "+=400",
+  		}, 1000, function() {
+  		});
+
+  		$( "#duck2b" ).animate({
+   		 	left: "+=800",
+  		}, 2000, function() {
+  		});
+
+  		$( "#duck2b" ).animate({
+   		 	left: "+=100",
+  		}, 2000, function() {
+  		});
+
+  		$( "#duck2b" ).animate({
+   		 	left: "+=600",
+  		}, 1000, function() {
+  			$("#duck2b").css("display", "none");
+  		});
+
+  	// GO BACK HOME
+  		$( "#duck2b" ).animate({
+   			left: "-=1900",
+  			}, 1, function() {
           $("#duck2b").css("display", "inline-block");
  		});
 	});
 
+
+// DUCK 2c
 	$( "#clickme" ).click(function() {
   		$( "#duck2c" ).animate({
-   		 	left: "+=20",
+   		 	left: "+=300",
   		}, 2000, function() {
   		});
 
   		$( "#duck2c" ).animate({
-   		 	left: "+=780",
+   		 	left: "+=500",
   		}, 1000, function() {
   		});
 
   		$( "#duck2c" ).animate({
-   		 	left: "+=200",
+   		 	left: "+=800",
   		}, 2000, function() {
   		});
 
   		$( "#duck2c" ).animate({
-   		 	left: "+=900",
+   		 	left: "+=300",
   		}, 1000, function() {
   			$("#duck2c").css("display", "none");
   		});
@@ -265,15 +413,44 @@ $(document).ready(function() {
 	// GO BACK HOME
   		$( "#duck2c" ).animate({
    			left: "-=1900",
-  			}, 1000, function() {
+  			}, 1, function() {
+  		  $("#duck2c").css("display", "inline-block");
+ 		});
+
+ 		$( "#duck2c" ).animate({
+   		 	left: "+=300",
+  		}, 2000, function() {
+  		});
+
+  		$( "#duck2c" ).animate({
+   		 	left: "+=500",
+  		}, 1000, function() {
+  		});
+
+  		$( "#duck2c" ).animate({
+   		 	left: "+=800",
+  		}, 2000, function() {
+  		});
+
+  		$( "#duck2c" ).animate({
+   		 	left: "+=300",
+  		}, 1000, function() {
+  			$("#duck2c").css("display", "none");
+  		});
+
+	// GO BACK HOME
+  		$( "#duck2c" ).animate({
+   			left: "-=1900",
+  			}, 1, function() {
   		  $("#duck2c").css("display", "inline-block");
  		});
 	});
 
 
+// DUCK 3a
 	$( "#clickme" ).click(function() {
   		$( "#duck3a" ).animate({
-   		 	left: "+=200",
+   		 	left: "+=500",
   		}, 3000, function() {
   		});
 
@@ -283,12 +460,12 @@ $(document).ready(function() {
   		});
 
   		$( "#duck3a" ).animate({
-   		 	left: "+=200",
+   		 	left: "+=500",
   		}, 500, function() {
   		});
 
   		$( "#duck3a" ).animate({
-   		 	left: "+=800",
+   		 	left: "+=200",
   		}, 1000, function() {
   			$("#duck3a").css("display", "none");
   		});
@@ -296,12 +473,41 @@ $(document).ready(function() {
   	// GO BACK HOME
   		$( "#duck3a" ).animate({
    			left: "-=1900",
-  			}, 1000, function() {
+  			}, 1, function() {
+          $("#duck3a").css("display", "inline-block");
+ 		});
+
+ 		$( "#duck3a" ).animate({
+   		 	left: "+=500",
+  		}, 3000, function() {
+  		});
+
+  		$( "#duck3a" ).animate({
+   		 	left: "+=700",
+  		}, 1500, function() {
+  		});
+
+  		$( "#duck3a" ).animate({
+   		 	left: "+=500",
+  		}, 500, function() {
+  		});
+
+  		$( "#duck3a" ).animate({
+   		 	left: "+=200",
+  		}, 1000, function() {
+  			$("#duck3a").css("display", "none");
+  		});
+
+  	// GO BACK HOME
+  		$( "#duck3a" ).animate({
+   			left: "-=1900",
+  			}, 1, function() {
           $("#duck3a").css("display", "inline-block");
  		});
 	});
 
 
+// DUCK 3b
 	$( "#clickme" ).click(function() {
   		$( "#duck3b" ).animate({
    		 	left: "+=100",
@@ -327,11 +533,41 @@ $(document).ready(function() {
   	// GO BACK HOME
   		$( "#duck3b" ).animate({
    			left: "-=1900",
-  			}, 1000, function() {
+  			}, 1, function() {
+  	      $("#duck3b").css("display", "inline-block");
+ 		});
+
+ 		$( "#duck3b" ).animate({
+   		 	left: "+=100",
+  		}, 1500, function() {
+  		});
+
+  		$( "#duck3b" ).animate({
+   		 	left: "+=500",
+  		}, 2000, function() {
+  		});
+
+  		$( "#duck3b" ).animate({
+   		 	left: "+=600",
+  		}, 1000, function() {
+  		});
+
+  		$( "#duck3b" ).animate({
+   		 	left: "+=700",
+  		}, 1500, function() {
+  			$("#duck3b").css("display", "none");
+  		});
+
+  	// GO BACK HOME
+  		$( "#duck3b" ).animate({
+   			left: "-=1900",
+  			}, 1, function() {
   	      $("#duck3b").css("display", "inline-block");
  		});
 	});
 
+
+// DUCK 3c
 	$( "#clickme" ).click(function() {
   		$( "#duck3c" ).animate({
    		 	left: "+=700",
@@ -339,7 +575,7 @@ $(document).ready(function() {
   		});
 
   		$( "#duck3c" ).animate({
-   		 	left: "+=100",
+   		 	left: "+=500",
   		}, 2000, function() {
   		});
 
@@ -349,7 +585,7 @@ $(document).ready(function() {
   		});
 
   		$( "#duck3c" ).animate({
-   		 	left: "+=700",
+   		 	left: "+=300",
   		}, 1000, function() {
   			$("#duck3c").css("display", "none");
   		});
@@ -357,12 +593,41 @@ $(document).ready(function() {
   	// GO BACK HOME
   		$( "#duck3c" ).animate({
    			left: "-=1900",
-  			}, 1000, function() {
+  			}, 1, function() {
+          $("#duck3c").css("display", "inline-block");
+ 		});
+
+ 		$( "#duck3c" ).animate({
+   		 	left: "+=700",
+  		}, 1000, function() {
+  		});
+
+  		$( "#duck3c" ).animate({
+   		 	left: "+=500",
+  		}, 2000, function() {
+  		});
+
+  		$( "#duck3c" ).animate({
+  			left: "+=400",
+  		}, 2000, function() {
+  		});
+
+  		$( "#duck3c" ).animate({
+   		 	left: "+=300",
+  		}, 1000, function() {
+  			$("#duck3c").css("display", "none");
+  		});
+
+  	// GO BACK HOME
+  		$( "#duck3c" ).animate({
+   			left: "-=1900",
+  			}, 1, function() {
           $("#duck3c").css("display", "inline-block");
  		});
 	});
 
 
+// DUCK 4a
 	$( "#clickme" ).click(function() {
   		$( "#duck4a" ).animate({
    		 	left: "+=200",
@@ -388,20 +653,50 @@ $(document).ready(function() {
   	// GO BACK HOME
   		$( "#duck4a" ).animate({
    			left: "-=1900",
-  			}, 1000, function() {
+  			}, 1, function() {
           $("#duck4a").css("display", "inline-block");
  		});
+
+ 			$( "#duck4a" ).animate({
+   		 	left: "+=200",
+  		}, 500, function() {
+  		});
+
+  		$( "#duck4a" ).animate({
+   		 	left: "+=800",
+  		}, 2000, function() {
+  		});
+
+  		$( "#duck4a" ).animate({
+   		 	left: "+=200",
+  		}, 2000, function() {
+  		});
+
+  		$( "#duck4a" ).animate({
+   		 	left: "+=700",
+  		}, 1500, function() {
+  			$("#duck4a").css("display", "none");
+  		});
+
+  	// GO BACK HOME
+  		$( "#duck4a" ).animate({
+   			left: "-=1900",
+  			}, 1, function() {
+          $("#duck4a").css("display", "inline-block");
+ 		});
+
 	});
 
 
+// DUCK 4b
 	$( "#clickme" ).click(function() {
   		$( "#duck4b" ).animate({
-   		 	left: "+=500",
+   		 	left: "+=700",
   		}, 500, function() {
   		});
 
   		$( "#duck4b" ).animate({
-   		 	left: "+=300",
+   		 	left: "+=500",
   		}, 1500, function() {
   		});
 
@@ -411,7 +706,7 @@ $(document).ready(function() {
   		});
 
   		$( "#duck4b" ).animate({
-   		 	left: "+=700",
+   		 	left: "+=300",
   		}, 2000, function() {
   			$("#duck4b").css("display", "none");
   		});
@@ -419,12 +714,43 @@ $(document).ready(function() {
   	// GO BACK HOME
   		$( "#duck4b" ).animate({
    			left: "-=1900",
-  			}, 1000, function() {
+  			}, 1, function() {
+          $("#duck4b").css("display", "inline-block");
+ 		});
+
+ 		$( "#duck4b" ).animate({
+   		 	left: "+=700",
+  		}, 500, function() {
+  		});
+
+  		$( "#duck4b" ).animate({
+   		 	left: "+=500",
+  		}, 1500, function() {
+  		});
+
+  		$( "#duck4b" ).animate({
+   		 	left: "+=400",
+  		}, 2000, function() {
+  		});
+
+  		$( "#duck4b" ).animate({
+   		 	left: "+=300",
+  		}, 2000, function() {
+  			$("#duck4b").css("display", "none");
+  		});
+
+  	// GO BACK HOME
+  		$( "#duck4b" ).animate({
+   			left: "-=1900",
+  			}, 1, function() {
           $("#duck4b").css("display", "inline-block");
  		});
 
 	});
 
+
+// DUCK 4c
+// move right then disappear, go back home fast, reappear, begin again
 	$( "#clickme" ).click(function() {
   		$( "#duck4c" ).animate({
    		 	left: "+=200",
@@ -448,10 +774,37 @@ $(document).ready(function() {
   		});
 
   	// GO BACK HOME
-
   		$( "#duck4c" ).animate({
    			left: "-=1900",
-  			}, 1000, function() {
+  			}, 1, function() {
+  		  $("#duck4c").css("display", "inline-block");
+ 		});
+
+ 		$( "#duck4c" ).animate({
+   		 left: "+=200",
+  		}, 500, function() {
+  		});
+
+  		$( "#duck4c" ).animate({
+   		 	left: "+=800",
+  		}, 2000, function() {
+  		});
+
+  		$( "#duck4c" ).animate({
+   		 	left: "+=100",
+  		}, 2000, function() {
+  		});
+
+  		$( "#duck4c" ).animate({
+   		 	left: "+=800",
+  		}, 1500, function() {
+  			$("#duck4c").css("display", "none");
+  		});
+
+  	// GO BACK HOME
+  		$( "#duck4c" ).animate({
+   			left: "-=1900",
+  			}, 1, function() {
   		  $("#duck4c").css("display", "inline-block");
   		  $("#buttonchange").html("CONTINUE");
   		  $(".go-again").css("background-color", "coral");
